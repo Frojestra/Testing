@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-<!--<script src="http://localhost/PrestigeOct/dirPagination.js"></script>-->
+<script src="http://localhost/PrestigeOct/dirPagination.js"></script>
 <body>
 
 <div ng-app="myApp">
@@ -18,7 +18,7 @@
 	<th>Local</th>
 	</tr>
 
-    <tr  ng-repeat="x in records">
+    <tr  dir-paginate="x in records|itemsPerPage:25">
         <td>{{x.L_Date}}</td>
         <td>{{x.L_Time}}</td>
 		<td>{{x.L_Duration}}</td>
@@ -29,14 +29,13 @@
 		<td>{{x.L_Local}}</td>
     </tr>
 </table>
-<!---
-dir-paginate
-|itemsPerPage:25
+
+
  <dir-pagination-controls
        max-size="5"
        direction-links="true"
        boundary-links="true" >
-    </dir-pagination-controls>-->
+    </dir-pagination-controls>
 
 <script src="script.js"></script>
 </body>
