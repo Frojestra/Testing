@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<!--<script src="http://localhost/PrestigeOct/dirPagination.js"></script>-->
+<body>
+
+<div ng-app="myApp">
+
+<table ng-controller="callCtrl" border="1">
+	<tr>
+	<th>Date</th>
+	<th>Time</th>
+	<th>Duration</th>
+	<th>Source</th>
+	<th>Direction</th>
+	<th>Distination</th>
+	<th>Staff</th>
+	<th>Local</th>
+	</tr>
+
+    <tr  ng-repeat="x in records">
+        <td>{{x.L_Date}}</td>
+        <td>{{x.L_Time}}</td>
+		<td>{{x.L_Duration}}</td>
+		<td>{{x.L_Source}}</td>
+		<td>{{x.L_Direction}}</td>
+		<td>{{x.L_Distination}}</td>
+		<td>{{x.L_Staff}}</td>
+		<td>{{x.L_Local}}</td>
+    </tr>
+</table>
+<!---
+dir-paginate
+|itemsPerPage:25
+ <dir-pagination-controls
+       max-size="5"
+       direction-links="true"
+       boundary-links="true" >
+    </dir-pagination-controls>-->
+
+<script src="script.js"></script>
+</body>
+</html>
