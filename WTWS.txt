@@ -1,0 +1,1175 @@
+namespace WTWS
+{
+    partial class FormMain
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
+            this.styleManager_Main = new DevComponents.DotNetBar.StyleManager(this.components);
+            this.metroStatusBar1 = new DevComponents.DotNetBar.Metro.MetroStatusBar();
+            this.labelItem1 = new DevComponents.DotNetBar.LabelItem();
+            this.ribbonControl_Main = new DevComponents.DotNetBar.RibbonControl();
+            this.ribbonPanel2 = new DevComponents.DotNetBar.RibbonPanel();
+            this.ribbonBar10 = new DevComponents.DotNetBar.RibbonBar();
+            this.buttonItem8 = new DevComponents.DotNetBar.ButtonItem();
+            this.ribbonBar9 = new DevComponents.DotNetBar.RibbonBar();
+            this.buttonItem_DailyBaseReport = new DevComponents.DotNetBar.ButtonItem();
+            this.buttonItem9 = new DevComponents.DotNetBar.ButtonItem();
+            this.ribbonPanel_WT = new DevComponents.DotNetBar.RibbonPanel();
+            this.ribbonBar6 = new DevComponents.DotNetBar.RibbonBar();
+            this.buttonItem_PitchAngle = new DevComponents.DotNetBar.ButtonItem();
+            this.ribbonBar4 = new DevComponents.DotNetBar.RibbonBar();
+            this.buttonItem_ConverterPower = new DevComponents.DotNetBar.ButtonItem();
+            this.buttonItem_ConverterTemp = new DevComponents.DotNetBar.ButtonItem();
+            this.buttonItem_ConverterError = new DevComponents.DotNetBar.ButtonItem();
+            this.ribbonBar3 = new DevComponents.DotNetBar.RibbonBar();
+            this.buttonItem_GeneratorSpeed = new DevComponents.DotNetBar.ButtonItem();
+            this.buttonItem_buttonItem_GeneratorTemp = new DevComponents.DotNetBar.ButtonItem();
+            this.ribbonBar2 = new DevComponents.DotNetBar.RibbonBar();
+            this.buttonItem_WTGearBoxBearTemp = new DevComponents.DotNetBar.ButtonItem();
+            this.buttonItem_WTGearBoxOilPress = new DevComponents.DotNetBar.ButtonItem();
+            this.ribbonBar1 = new DevComponents.DotNetBar.RibbonBar();
+            this.buttonItem_WTMainShaft = new DevComponents.DotNetBar.ButtonItem();
+            this.buttonItem_WTMainShaftTemp = new DevComponents.DotNetBar.ButtonItem();
+            this.ribbonBar_WTCurve = new DevComponents.DotNetBar.RibbonBar();
+            this.buttonItem_WTPowerCurve = new DevComponents.DotNetBar.ButtonItem();
+            this.buttonItem_Vibration = new DevComponents.DotNetBar.ButtonItem();
+            this.ribbonPanel1 = new DevComponents.DotNetBar.RibbonPanel();
+            this.ribbonBar5 = new DevComponents.DotNetBar.RibbonBar();
+            this.buttonItem_Energy1 = new DevComponents.DotNetBar.ButtonItem();
+            this.buttonItem1 = new DevComponents.DotNetBar.ButtonItem();
+            this.buttonItem2 = new DevComponents.DotNetBar.ButtonItem();
+            this.ribbonPanel3 = new DevComponents.DotNetBar.RibbonPanel();
+            this.ribbonBar8 = new DevComponents.DotNetBar.RibbonBar();
+            this.buttonItem5 = new DevComponents.DotNetBar.ButtonItem();
+            this.buttonItem6 = new DevComponents.DotNetBar.ButtonItem();
+            this.buttonItem7 = new DevComponents.DotNetBar.ButtonItem();
+            this.ribbonBar7 = new DevComponents.DotNetBar.RibbonBar();
+            this.buttonItem3 = new DevComponents.DotNetBar.ButtonItem();
+            this.buttonItem4 = new DevComponents.DotNetBar.ButtonItem();
+            this.ribbonTabItem1 = new DevComponents.DotNetBar.RibbonTabItem();
+            this.ribbonTabItem_WT = new DevComponents.DotNetBar.RibbonTabItem();
+            this.ribbonTabItem2 = new DevComponents.DotNetBar.RibbonTabItem();
+            this.ribbonTabItem3 = new DevComponents.DotNetBar.RibbonTabItem();
+            this.panelEx_Left = new DevComponents.DotNetBar.PanelEx();
+            this.advTree_WTInfo = new DevComponents.AdvTree.AdvTree();
+            this.imageList_WT = new System.Windows.Forms.ImageList(this.components);
+            this.node1 = new DevComponents.AdvTree.Node();
+            this.nodeConnector1 = new DevComponents.AdvTree.NodeConnector();
+            this.elementStyle1 = new DevComponents.DotNetBar.ElementStyle();
+            this.expandableSplitter_Left = new DevComponents.DotNetBar.ExpandableSplitter();
+            FormMain.superTabControl_Main = new DevComponents.DotNetBar.SuperTabControl();
+            this.superTabControlPanel1 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.superTabItem1 = new DevComponents.DotNetBar.SuperTabItem();
+            this.ribbonControl_Main.SuspendLayout();
+            this.ribbonPanel2.SuspendLayout();
+            this.ribbonPanel_WT.SuspendLayout();
+            this.ribbonPanel1.SuspendLayout();
+            this.ribbonPanel3.SuspendLayout();
+            this.panelEx_Left.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.advTree_WTInfo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(FormMain.superTabControl_Main)).BeginInit();
+            FormMain.superTabControl_Main.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // styleManager_Main
+            // 
+            this.styleManager_Main.ManagerStyle = DevComponents.DotNetBar.eStyle.Windows7Blue;
+            this.styleManager_Main.MetroColorParameters = new DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.White, System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(163)))), ((int)(((byte)(26))))));
+            // 
+            // metroStatusBar1
+            // 
+            this.metroStatusBar1.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.metroStatusBar1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.metroStatusBar1.ContainerControlProcessDialogKey = true;
+            this.metroStatusBar1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.metroStatusBar1.DragDropSupport = true;
+            this.metroStatusBar1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.metroStatusBar1.ForeColor = System.Drawing.Color.Black;
+            this.metroStatusBar1.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.labelItem1});
+            this.metroStatusBar1.Location = new System.Drawing.Point(1, 440);
+            this.metroStatusBar1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.metroStatusBar1.Name = "metroStatusBar1";
+            this.metroStatusBar1.Size = new System.Drawing.Size(1037, 27);
+            this.metroStatusBar1.TabIndex = 1;
+            this.metroStatusBar1.Text = "metroStatusBar1";
+            // 
+            // labelItem1
+            // 
+            this.labelItem1.Name = "labelItem1";
+            this.labelItem1.Text = "READY";
+            // 
+            // ribbonControl_Main
+            // 
+            this.ribbonControl_Main.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.ribbonControl_Main.BackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.ItemPressedBackground;
+            this.ribbonControl_Main.BackgroundStyle.BackColorGradientAngle = 90;
+            this.ribbonControl_Main.BackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.ItemSeparatorShade;
+            this.ribbonControl_Main.BackgroundStyle.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.ribbonControl_Main.BackgroundStyle.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.DockSiteBackColor2;
+            this.ribbonControl_Main.BackgroundStyle.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.ribbonControl_Main.BackgroundStyle.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.ribbonControl_Main.BackgroundStyle.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.ribbonControl_Main.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonControl_Main.CaptionVisible = true;
+            this.ribbonControl_Main.Controls.Add(this.ribbonPanel2);
+            this.ribbonControl_Main.Controls.Add(this.ribbonPanel_WT);
+            this.ribbonControl_Main.Controls.Add(this.ribbonPanel1);
+            this.ribbonControl_Main.Controls.Add(this.ribbonPanel3);
+            this.ribbonControl_Main.Dock = System.Windows.Forms.DockStyle.Top;
+            this.ribbonControl_Main.Font = new System.Drawing.Font("Segoe UI", 11.5F, System.Drawing.FontStyle.Bold);
+            this.ribbonControl_Main.ForeColor = System.Drawing.Color.Black;
+            this.ribbonControl_Main.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.ribbonTabItem1,
+            this.ribbonTabItem_WT,
+            this.ribbonTabItem2,
+            this.ribbonTabItem3});
+            this.ribbonControl_Main.KeyTipsFont = new System.Drawing.Font("Tahoma", 7F);
+            this.ribbonControl_Main.Location = new System.Drawing.Point(1, 1);
+            this.ribbonControl_Main.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ribbonControl_Main.Name = "ribbonControl_Main";
+            this.ribbonControl_Main.Padding = new System.Windows.Forms.Padding(0, 0, 0, 3);
+            this.ribbonControl_Main.Size = new System.Drawing.Size(1037, 124);
+            this.ribbonControl_Main.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonControl_Main.SystemText.MaximizeRibbonText = "&Maximize the Ribbon";
+            this.ribbonControl_Main.SystemText.MinimizeRibbonText = "Mi&nimize the Ribbon";
+            this.ribbonControl_Main.SystemText.QatAddItemText = "&Add to Quick Access Toolbar";
+            this.ribbonControl_Main.SystemText.QatCustomizeMenuLabel = "<b>Customize Quick Access Toolbar</b>";
+            this.ribbonControl_Main.SystemText.QatCustomizeText = "&Customize Quick Access Toolbar...";
+            this.ribbonControl_Main.SystemText.QatDialogAddButton = "&Add >>";
+            this.ribbonControl_Main.SystemText.QatDialogCancelButton = "Cancel";
+            this.ribbonControl_Main.SystemText.QatDialogCaption = "Customize Quick Access Toolbar";
+            this.ribbonControl_Main.SystemText.QatDialogCategoriesLabel = "&Choose commands from:";
+            this.ribbonControl_Main.SystemText.QatDialogOkButton = "OK";
+            this.ribbonControl_Main.SystemText.QatDialogPlacementCheckbox = "&Place Quick Access Toolbar below the Ribbon";
+            this.ribbonControl_Main.SystemText.QatDialogRemoveButton = "&Remove";
+            this.ribbonControl_Main.SystemText.QatPlaceAboveRibbonText = "&Place Quick Access Toolbar above the Ribbon";
+            this.ribbonControl_Main.SystemText.QatPlaceBelowRibbonText = "&Place Quick Access Toolbar below the Ribbon";
+            this.ribbonControl_Main.SystemText.QatRemoveItemText = "&Remove from Quick Access Toolbar";
+            this.ribbonControl_Main.TabGroupHeight = 14;
+            this.ribbonControl_Main.TabIndex = 2;
+            this.ribbonControl_Main.Text = "ribbonControl1";
+            this.ribbonControl_Main.Paint += new System.Windows.Forms.PaintEventHandler(this.ribbonControl_Main_Paint);
+            // 
+            // ribbonPanel2
+            // 
+            this.ribbonPanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonPanel2.Controls.Add(this.ribbonBar10);
+            this.ribbonPanel2.Controls.Add(this.ribbonBar9);
+            this.ribbonPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ribbonPanel2.Location = new System.Drawing.Point(0, 58);
+            this.ribbonPanel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ribbonPanel2.Name = "ribbonPanel2";
+            this.ribbonPanel2.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
+            this.ribbonPanel2.Size = new System.Drawing.Size(1037, 63);
+            // 
+            // 
+            // 
+            this.ribbonPanel2.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonPanel2.Style.PaddingBottom = 2;
+            this.ribbonPanel2.Style.PaddingLeft = 2;
+            this.ribbonPanel2.Style.PaddingRight = 2;
+            this.ribbonPanel2.Style.PaddingTop = 2;
+            // 
+            // 
+            // 
+            this.ribbonPanel2.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonPanel2.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonPanel2.TabIndex = 2;
+            this.ribbonPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.ribbonPanel2_Paint);
+            // 
+            // ribbonBar10
+            // 
+            this.ribbonBar10.AutoOverflowEnabled = true;
+            this.ribbonBar10.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.ribbonBar10.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar10.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar10.ContainerControlProcessDialogKey = true;
+            this.ribbonBar10.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ribbonBar10.DragDropSupport = true;
+            this.ribbonBar10.ForeColor = System.Drawing.Color.Black;
+            this.ribbonBar10.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.buttonItem8});
+            this.ribbonBar10.Location = new System.Drawing.Point(91, 0);
+            this.ribbonBar10.Name = "ribbonBar10";
+            this.ribbonBar10.Size = new System.Drawing.Size(100, 60);
+            this.ribbonBar10.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonBar10.TabIndex = 1;
+            this.ribbonBar10.Text = "统计";
+            // 
+            // 
+            // 
+            this.ribbonBar10.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar10.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // buttonItem8
+            // 
+            this.buttonItem8.ColorTable = DevComponents.DotNetBar.eButtonColor.Blue;
+            this.buttonItem8.Name = "buttonItem8";
+            this.buttonItem8.SubItemsExpandWidth = 14;
+            this.buttonItem8.Text = "指数统计";
+            this.buttonItem8.Click += new System.EventHandler(this.buttonItem8_Click);
+            // 
+            // ribbonBar9
+            // 
+            this.ribbonBar9.AutoOverflowEnabled = true;
+            this.ribbonBar9.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.ribbonBar9.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar9.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar9.BackgroundStyle.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.ribbonBar9.ContainerControlProcessDialogKey = true;
+            this.ribbonBar9.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ribbonBar9.DragDropSupport = true;
+            this.ribbonBar9.ForeColor = System.Drawing.Color.Black;
+            this.ribbonBar9.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.buttonItem_DailyBaseReport,
+            this.buttonItem9});
+            this.ribbonBar9.Location = new System.Drawing.Point(3, 0);
+            this.ribbonBar9.Name = "ribbonBar9";
+            this.ribbonBar9.Size = new System.Drawing.Size(88, 60);
+            this.ribbonBar9.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonBar9.TabIndex = 0;
+            this.ribbonBar9.Text = "运行报表";
+            // 
+            // 
+            // 
+            this.ribbonBar9.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar9.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar9.TitleStyleMouseOver.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.ribbonBar9.TitleStyleMouseOver.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.MenuBarBackground;
+            // 
+            // buttonItem_DailyBaseReport
+            // 
+            this.buttonItem_DailyBaseReport.ColorTable = DevComponents.DotNetBar.eButtonColor.Blue;
+            this.buttonItem_DailyBaseReport.ForeColor = System.Drawing.Color.White;
+            this.buttonItem_DailyBaseReport.Name = "buttonItem_DailyBaseReport";
+            this.buttonItem_DailyBaseReport.SubItemsExpandWidth = 14;
+            this.buttonItem_DailyBaseReport.Text = "日报";
+            this.buttonItem_DailyBaseReport.Click += new System.EventHandler(this.buttonItem_DailyBaseReport_Click);
+            // 
+            // buttonItem9
+            // 
+            this.buttonItem9.ColorTable = DevComponents.DotNetBar.eButtonColor.Blue;
+            this.buttonItem9.ForeColor = System.Drawing.Color.White;
+            this.buttonItem9.Name = "buttonItem9";
+            this.buttonItem9.SubItemsExpandWidth = 14;
+            this.buttonItem9.Text = "月报";
+            // 
+            // ribbonPanel_WT
+            // 
+            this.ribbonPanel_WT.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonPanel_WT.Controls.Add(this.ribbonBar6);
+            this.ribbonPanel_WT.Controls.Add(this.ribbonBar4);
+            this.ribbonPanel_WT.Controls.Add(this.ribbonBar3);
+            this.ribbonPanel_WT.Controls.Add(this.ribbonBar2);
+            this.ribbonPanel_WT.Controls.Add(this.ribbonBar1);
+            this.ribbonPanel_WT.Controls.Add(this.ribbonBar_WTCurve);
+            this.ribbonPanel_WT.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ribbonPanel_WT.Location = new System.Drawing.Point(0, 58);
+            this.ribbonPanel_WT.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ribbonPanel_WT.Name = "ribbonPanel_WT";
+            this.ribbonPanel_WT.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
+            this.ribbonPanel_WT.Size = new System.Drawing.Size(1037, 63);
+            // 
+            // 
+            // 
+            this.ribbonPanel_WT.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.BarFloatingBorder;
+            this.ribbonPanel_WT.Style.BackColorBlend.AddRange(new DevComponents.DotNetBar.BackgroundColorBlend[] {
+            new DevComponents.DotNetBar.BackgroundColorBlend(System.Drawing.Color.Empty, 0F)});
+            this.ribbonPanel_WT.Style.BackColorGradientAngle = 90;
+            this.ribbonPanel_WT.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.MenuBarBackground;
+            this.ribbonPanel_WT.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.DockSiteBackColor;
+            this.ribbonPanel_WT.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonPanel_WT.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonPanel_WT.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonPanel_WT.TabIndex = 1;
+            this.ribbonPanel_WT.Visible = false;
+            this.ribbonPanel_WT.Paint += new System.Windows.Forms.PaintEventHandler(this.ribbonPanel_WT_Paint);
+            // 
+            // ribbonBar6
+            // 
+            this.ribbonBar6.AutoOverflowEnabled = true;
+            this.ribbonBar6.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.ribbonBar6.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar6.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar6.ContainerControlProcessDialogKey = true;
+            this.ribbonBar6.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ribbonBar6.DragDropSupport = true;
+            this.ribbonBar6.ForeColor = System.Drawing.Color.Black;
+            this.ribbonBar6.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.buttonItem_PitchAngle});
+            this.ribbonBar6.Location = new System.Drawing.Point(562, 0);
+            this.ribbonBar6.Name = "ribbonBar6";
+            this.ribbonBar6.Size = new System.Drawing.Size(80, 60);
+            this.ribbonBar6.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonBar6.TabIndex = 7;
+            this.ribbonBar6.Text = "变桨";
+            // 
+            // 
+            // 
+            this.ribbonBar6.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar6.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar6.TitleStyleMouseOver.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.ribbonBar6.TitleStyleMouseOver.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.MenuBarBackground;
+            // 
+            // buttonItem_PitchAngle
+            // 
+            this.buttonItem_PitchAngle.ColorTable = DevComponents.DotNetBar.eButtonColor.Blue;
+            this.buttonItem_PitchAngle.Name = "buttonItem_PitchAngle";
+            this.buttonItem_PitchAngle.SubItemsExpandWidth = 14;
+            this.buttonItem_PitchAngle.Text = "变桨角度";
+            this.buttonItem_PitchAngle.Click += new System.EventHandler(this.buttonItem_PitchAngle_Click);
+            // 
+            // ribbonBar4
+            // 
+            this.ribbonBar4.AutoOverflowEnabled = true;
+            this.ribbonBar4.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.ribbonBar4.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar4.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar4.ContainerControlProcessDialogKey = true;
+            this.ribbonBar4.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ribbonBar4.DragDropSupport = true;
+            this.ribbonBar4.ForeColor = System.Drawing.Color.Black;
+            this.ribbonBar4.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.buttonItem_ConverterPower,
+            this.buttonItem_ConverterTemp,
+            this.buttonItem_ConverterError});
+            this.ribbonBar4.Location = new System.Drawing.Point(403, 0);
+            this.ribbonBar4.Name = "ribbonBar4";
+            this.ribbonBar4.Size = new System.Drawing.Size(159, 60);
+            this.ribbonBar4.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonBar4.TabIndex = 5;
+            this.ribbonBar4.Text = "变流器";
+            // 
+            // 
+            // 
+            this.ribbonBar4.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar4.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar4.TitleStyleMouseOver.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.ribbonBar4.TitleStyleMouseOver.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.MenuBarBackground;
+            // 
+            // buttonItem_ConverterPower
+            // 
+            this.buttonItem_ConverterPower.ColorTable = DevComponents.DotNetBar.eButtonColor.Blue;
+            this.buttonItem_ConverterPower.Name = "buttonItem_ConverterPower";
+            this.buttonItem_ConverterPower.SubItemsExpandWidth = 14;
+            this.buttonItem_ConverterPower.Text = "功率";
+            this.buttonItem_ConverterPower.Click += new System.EventHandler(this.buttonItem_ConverterPower_Click);
+            // 
+            // buttonItem_ConverterTemp
+            // 
+            this.buttonItem_ConverterTemp.ColorTable = DevComponents.DotNetBar.eButtonColor.Blue;
+            this.buttonItem_ConverterTemp.Name = "buttonItem_ConverterTemp";
+            this.buttonItem_ConverterTemp.SubItemsExpandWidth = 14;
+            this.buttonItem_ConverterTemp.Text = "温度";
+            this.buttonItem_ConverterTemp.Click += new System.EventHandler(this.buttonItem_ConverterTemp_Click);
+            // 
+            // buttonItem_ConverterError
+            // 
+            this.buttonItem_ConverterError.ColorTable = DevComponents.DotNetBar.eButtonColor.Blue;
+            this.buttonItem_ConverterError.Name = "buttonItem_ConverterError";
+            this.buttonItem_ConverterError.SubItemsExpandWidth = 14;
+            this.buttonItem_ConverterError.Text = "故障字数";
+            this.buttonItem_ConverterError.Click += new System.EventHandler(this.buttonItem_ConverterError_Click);
+            // 
+            // ribbonBar3
+            // 
+            this.ribbonBar3.AutoOverflowEnabled = true;
+            this.ribbonBar3.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.ribbonBar3.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar3.ContainerControlProcessDialogKey = true;
+            this.ribbonBar3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ribbonBar3.DragDropSupport = true;
+            this.ribbonBar3.ForeColor = System.Drawing.Color.Black;
+            this.ribbonBar3.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.buttonItem_GeneratorSpeed,
+            this.buttonItem_buttonItem_GeneratorTemp});
+            this.ribbonBar3.Location = new System.Drawing.Point(315, 0);
+            this.ribbonBar3.Name = "ribbonBar3";
+            this.ribbonBar3.Size = new System.Drawing.Size(88, 60);
+            this.ribbonBar3.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonBar3.TabIndex = 4;
+            this.ribbonBar3.Text = "发电机";
+            // 
+            // 
+            // 
+            this.ribbonBar3.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar3.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar3.TitleStyleMouseOver.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.ribbonBar3.TitleStyleMouseOver.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.MenuBarBackground;
+            // 
+            // buttonItem_GeneratorSpeed
+            // 
+            this.buttonItem_GeneratorSpeed.ColorTable = DevComponents.DotNetBar.eButtonColor.Blue;
+            this.buttonItem_GeneratorSpeed.Name = "buttonItem_GeneratorSpeed";
+            this.buttonItem_GeneratorSpeed.SubItemsExpandWidth = 14;
+            this.buttonItem_GeneratorSpeed.Text = "转速";
+            this.buttonItem_GeneratorSpeed.Click += new System.EventHandler(this.buttonItem_GeneratorSpeed_Click);
+            // 
+            // buttonItem_buttonItem_GeneratorTemp
+            // 
+            this.buttonItem_buttonItem_GeneratorTemp.ColorTable = DevComponents.DotNetBar.eButtonColor.Blue;
+            this.buttonItem_buttonItem_GeneratorTemp.Name = "buttonItem_buttonItem_GeneratorTemp";
+            this.buttonItem_buttonItem_GeneratorTemp.SubItemsExpandWidth = 14;
+            this.buttonItem_buttonItem_GeneratorTemp.Text = "温度";
+            this.buttonItem_buttonItem_GeneratorTemp.Click += new System.EventHandler(this.buttonItem_buttonItem_GeneratorTemp_Click);
+            // 
+            // ribbonBar2
+            // 
+            this.ribbonBar2.AutoOverflowEnabled = true;
+            this.ribbonBar2.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.ribbonBar2.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar2.ContainerControlProcessDialogKey = true;
+            this.ribbonBar2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ribbonBar2.DragDropSupport = true;
+            this.ribbonBar2.ForeColor = System.Drawing.Color.Black;
+            this.ribbonBar2.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.buttonItem_WTGearBoxBearTemp,
+            this.buttonItem_WTGearBoxOilPress});
+            this.ribbonBar2.Location = new System.Drawing.Point(200, 0);
+            this.ribbonBar2.Name = "ribbonBar2";
+            this.ribbonBar2.Size = new System.Drawing.Size(115, 60);
+            this.ribbonBar2.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonBar2.TabIndex = 3;
+            this.ribbonBar2.Text = "齿轮箱";
+            // 
+            // 
+            // 
+            this.ribbonBar2.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar2.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar2.TitleStyleMouseOver.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.ribbonBar2.TitleStyleMouseOver.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.MenuBarBackground;
+            // 
+            // buttonItem_WTGearBoxBearTemp
+            // 
+            this.buttonItem_WTGearBoxBearTemp.ColorTable = DevComponents.DotNetBar.eButtonColor.Blue;
+            this.buttonItem_WTGearBoxBearTemp.Name = "buttonItem_WTGearBoxBearTemp";
+            this.buttonItem_WTGearBoxBearTemp.SubItemsExpandWidth = 14;
+            this.buttonItem_WTGearBoxBearTemp.Text = "轴承温度";
+            this.buttonItem_WTGearBoxBearTemp.Click += new System.EventHandler(this.buttonItem_WTGearBoxBearTemp_Click);
+            // 
+            // buttonItem_WTGearBoxOilPress
+            // 
+            this.buttonItem_WTGearBoxOilPress.ColorTable = DevComponents.DotNetBar.eButtonColor.Blue;
+            this.buttonItem_WTGearBoxOilPress.Name = "buttonItem_WTGearBoxOilPress";
+            this.buttonItem_WTGearBoxOilPress.SubItemsExpandWidth = 14;
+            this.buttonItem_WTGearBoxOilPress.Text = "油压";
+            this.buttonItem_WTGearBoxOilPress.Click += new System.EventHandler(this.buttonItem_WTGearBoxOilPress_Click);
+            // 
+            // ribbonBar1
+            // 
+            this.ribbonBar1.AutoOverflowEnabled = true;
+            this.ribbonBar1.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.ribbonBar1.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar1.ContainerControlProcessDialogKey = true;
+            this.ribbonBar1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ribbonBar1.DragDropSupport = true;
+            this.ribbonBar1.ForeColor = System.Drawing.Color.Black;
+            this.ribbonBar1.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.buttonItem_WTMainShaft,
+            this.buttonItem_WTMainShaftTemp});
+            this.ribbonBar1.Location = new System.Drawing.Point(108, 0);
+            this.ribbonBar1.Name = "ribbonBar1";
+            this.ribbonBar1.Size = new System.Drawing.Size(92, 60);
+            this.ribbonBar1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonBar1.TabIndex = 2;
+            this.ribbonBar1.Text = "主轴";
+            // 
+            // 
+            // 
+            this.ribbonBar1.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar1.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar1.TitleStyleMouseOver.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.ribbonBar1.TitleStyleMouseOver.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.MenuBarBackground;
+            // 
+            // buttonItem_WTMainShaft
+            // 
+            this.buttonItem_WTMainShaft.ColorTable = DevComponents.DotNetBar.eButtonColor.Blue;
+            this.buttonItem_WTMainShaft.Name = "buttonItem_WTMainShaft";
+            this.buttonItem_WTMainShaft.SubItemsExpandWidth = 14;
+            this.buttonItem_WTMainShaft.Text = "转速";
+            this.buttonItem_WTMainShaft.Click += new System.EventHandler(this.buttonItem_WTMainShaft_Click);
+            // 
+            // buttonItem_WTMainShaftTemp
+            // 
+            this.buttonItem_WTMainShaftTemp.ColorTable = DevComponents.DotNetBar.eButtonColor.Blue;
+            this.buttonItem_WTMainShaftTemp.Name = "buttonItem_WTMainShaftTemp";
+            this.buttonItem_WTMainShaftTemp.SubItemsExpandWidth = 14;
+            this.buttonItem_WTMainShaftTemp.Text = "温度";
+            this.buttonItem_WTMainShaftTemp.Click += new System.EventHandler(this.buttonItem_WTMainShaftTemp_Click);
+            // 
+            // ribbonBar_WTCurve
+            // 
+            this.ribbonBar_WTCurve.AutoOverflowEnabled = true;
+            this.ribbonBar_WTCurve.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.ribbonBar_WTCurve.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar_WTCurve.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar_WTCurve.ContainerControlProcessDialogKey = true;
+            this.ribbonBar_WTCurve.DisabledImagesGrayScale = false;
+            this.ribbonBar_WTCurve.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ribbonBar_WTCurve.DragDropSupport = true;
+            this.ribbonBar_WTCurve.ForeColor = System.Drawing.Color.Black;
+            this.ribbonBar_WTCurve.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.buttonItem_WTPowerCurve,
+            this.buttonItem_Vibration});
+            this.ribbonBar_WTCurve.Location = new System.Drawing.Point(3, 0);
+            this.ribbonBar_WTCurve.Name = "ribbonBar_WTCurve";
+            this.ribbonBar_WTCurve.Size = new System.Drawing.Size(105, 60);
+            this.ribbonBar_WTCurve.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonBar_WTCurve.TabIndex = 1;
+            this.ribbonBar_WTCurve.Text = "整机";
+            // 
+            // 
+            // 
+            this.ribbonBar_WTCurve.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar_WTCurve.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar_WTCurve.TitleStyleMouseOver.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.ribbonBar_WTCurve.TitleStyleMouseOver.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.MenuBarBackground;
+            // 
+            // buttonItem_WTPowerCurve
+            // 
+            this.buttonItem_WTPowerCurve.ColorTable = DevComponents.DotNetBar.eButtonColor.Blue;
+            this.buttonItem_WTPowerCurve.Name = "buttonItem_WTPowerCurve";
+            this.buttonItem_WTPowerCurve.SubItemsExpandWidth = 14;
+            this.buttonItem_WTPowerCurve.Text = "功率曲线";
+            this.buttonItem_WTPowerCurve.Click += new System.EventHandler(this.buttonItem_WTPowerCurve_Click);
+            // 
+            // buttonItem_Vibration
+            // 
+            this.buttonItem_Vibration.ColorTable = DevComponents.DotNetBar.eButtonColor.Blue;
+            this.buttonItem_Vibration.ForeColor = System.Drawing.Color.Black;
+            this.buttonItem_Vibration.Name = "buttonItem_Vibration";
+            this.buttonItem_Vibration.SubItemsExpandWidth = 14;
+            this.buttonItem_Vibration.Text = "振动";
+            this.buttonItem_Vibration.Click += new System.EventHandler(this.buttonItem_Vibration_Click);
+            // 
+            // ribbonPanel1
+            // 
+            this.ribbonPanel1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonPanel1.Controls.Add(this.ribbonBar5);
+            this.ribbonPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ribbonPanel1.Location = new System.Drawing.Point(0, 58);
+            this.ribbonPanel1.Name = "ribbonPanel1";
+            this.ribbonPanel1.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
+            this.ribbonPanel1.Size = new System.Drawing.Size(1037, 63);
+            // 
+            // 
+            // 
+            this.ribbonPanel1.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonPanel1.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonPanel1.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonPanel1.TabIndex = 3;
+            this.ribbonPanel1.Visible = false;
+            this.ribbonPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.ribbonPanel1_Paint);
+            // 
+            // ribbonBar5
+            // 
+            this.ribbonBar5.AutoOverflowEnabled = true;
+            this.ribbonBar5.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.ribbonBar5.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar5.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar5.ContainerControlProcessDialogKey = true;
+            this.ribbonBar5.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ribbonBar5.DragDropSupport = true;
+            this.ribbonBar5.ForeColor = System.Drawing.Color.Black;
+            this.ribbonBar5.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.buttonItem_Energy1,
+            this.buttonItem1,
+            this.buttonItem2});
+            this.ribbonBar5.Location = new System.Drawing.Point(3, 0);
+            this.ribbonBar5.Name = "ribbonBar5";
+            this.ribbonBar5.Size = new System.Drawing.Size(127, 60);
+            this.ribbonBar5.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonBar5.TabIndex = 0;
+            this.ribbonBar5.Text = "电量信息";
+            // 
+            // 
+            // 
+            this.ribbonBar5.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar5.TitleStyle.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            // 
+            // 
+            // 
+            this.ribbonBar5.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar5.TitleStyleMouseOver.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.ribbonBar5.TitleStyleMouseOver.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.MenuBarBackground;
+            // 
+            // buttonItem_Energy1
+            // 
+            this.buttonItem_Energy1.ColorTable = DevComponents.DotNetBar.eButtonColor.Blue;
+            this.buttonItem_Energy1.Name = "buttonItem_Energy1";
+            this.buttonItem_Energy1.SubItemsExpandWidth = 14;
+            this.buttonItem_Energy1.Text = "二期";
+            this.buttonItem_Energy1.Click += new System.EventHandler(this.buttonItem_Energy1_Click);
+            // 
+            // buttonItem1
+            // 
+            this.buttonItem1.ColorTable = DevComponents.DotNetBar.eButtonColor.Blue;
+            this.buttonItem1.Name = "buttonItem1";
+            this.buttonItem1.SubItemsExpandWidth = 14;
+            this.buttonItem1.Text = "三期";
+            this.buttonItem1.Click += new System.EventHandler(this.buttonItem1_Click);
+            // 
+            // buttonItem2
+            // 
+            this.buttonItem2.ColorTable = DevComponents.DotNetBar.eButtonColor.Blue;
+            this.buttonItem2.Name = "buttonItem2";
+            this.buttonItem2.SubItemsExpandWidth = 14;
+            this.buttonItem2.Text = "四期";
+            this.buttonItem2.Click += new System.EventHandler(this.buttonItem2_Click);
+            // 
+            // ribbonPanel3
+            // 
+            this.ribbonPanel3.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonPanel3.Controls.Add(this.ribbonBar8);
+            this.ribbonPanel3.Controls.Add(this.ribbonBar7);
+            this.ribbonPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ribbonPanel3.Location = new System.Drawing.Point(0, 58);
+            this.ribbonPanel3.Name = "ribbonPanel3";
+            this.ribbonPanel3.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
+            this.ribbonPanel3.Size = new System.Drawing.Size(1037, 63);
+            // 
+            // 
+            // 
+            this.ribbonPanel3.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonPanel3.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonPanel3.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonPanel3.TabIndex = 4;
+            this.ribbonPanel3.Visible = false;
+            this.ribbonPanel3.Paint += new System.Windows.Forms.PaintEventHandler(this.ribbonPanel3_Paint);
+            // 
+            // ribbonBar8
+            // 
+            this.ribbonBar8.AutoOverflowEnabled = true;
+            this.ribbonBar8.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.ribbonBar8.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar8.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar8.ContainerControlProcessDialogKey = true;
+            this.ribbonBar8.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ribbonBar8.DragDropSupport = true;
+            this.ribbonBar8.ForeColor = System.Drawing.Color.Black;
+            this.ribbonBar8.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.buttonItem5,
+            this.buttonItem6,
+            this.buttonItem7});
+            this.ribbonBar8.Location = new System.Drawing.Point(159, 0);
+            this.ribbonBar8.Name = "ribbonBar8";
+            this.ribbonBar8.Size = new System.Drawing.Size(217, 60);
+            this.ribbonBar8.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonBar8.TabIndex = 1;
+            this.ribbonBar8.Text = "帮助";
+            // 
+            // 
+            // 
+            this.ribbonBar8.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar8.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar8.TitleStyleMouseOver.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.ribbonBar8.TitleStyleMouseOver.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.MenuBarBackground;
+            // 
+            // buttonItem5
+            // 
+            this.buttonItem5.ColorTable = DevComponents.DotNetBar.eButtonColor.Blue;
+            this.buttonItem5.Name = "buttonItem5";
+            this.buttonItem5.SubItemsExpandWidth = 14;
+            this.buttonItem5.Text = "用户手册";
+            // 
+            // buttonItem6
+            // 
+            this.buttonItem6.ColorTable = DevComponents.DotNetBar.eButtonColor.Blue;
+            this.buttonItem6.Name = "buttonItem6";
+            this.buttonItem6.SubItemsExpandWidth = 14;
+            this.buttonItem6.Text = "问题反馈";
+            // 
+            // buttonItem7
+            // 
+            this.buttonItem7.ColorTable = DevComponents.DotNetBar.eButtonColor.Blue;
+            this.buttonItem7.Name = "buttonItem7";
+            this.buttonItem7.SubItemsExpandWidth = 14;
+            this.buttonItem7.Text = "系统升级";
+            // 
+            // ribbonBar7
+            // 
+            this.ribbonBar7.AutoOverflowEnabled = true;
+            this.ribbonBar7.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.ribbonBar7.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar7.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar7.CausesValidation = false;
+            this.ribbonBar7.ContainerControlProcessDialogKey = true;
+            this.ribbonBar7.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ribbonBar7.DragDropSupport = true;
+            this.ribbonBar7.FadeEffect = false;
+            this.ribbonBar7.ForeColor = System.Drawing.Color.Black;
+            this.ribbonBar7.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.buttonItem3,
+            this.buttonItem4});
+            this.ribbonBar7.Location = new System.Drawing.Point(3, 0);
+            this.ribbonBar7.Name = "ribbonBar7";
+            this.ribbonBar7.Size = new System.Drawing.Size(156, 60);
+            this.ribbonBar7.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonBar7.TabIndex = 0;
+            this.ribbonBar7.Text = "管理";
+            // 
+            // 
+            // 
+            this.ribbonBar7.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar7.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar7.TitleStyleMouseOver.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.ribbonBar7.TitleStyleMouseOver.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.MenuBarBackground;
+            // 
+            // buttonItem3
+            // 
+            this.buttonItem3.ColorTable = DevComponents.DotNetBar.eButtonColor.Blue;
+            this.buttonItem3.Name = "buttonItem3";
+            this.buttonItem3.SubItemsExpandWidth = 14;
+            this.buttonItem3.Text = "用户管理";
+            // 
+            // buttonItem4
+            // 
+            this.buttonItem4.ColorTable = DevComponents.DotNetBar.eButtonColor.Blue;
+            this.buttonItem4.Name = "buttonItem4";
+            this.buttonItem4.SubItemsExpandWidth = 14;
+            this.buttonItem4.Text = "权限管理";
+            // 
+            // ribbonTabItem1
+            // 
+            this.ribbonTabItem1.FontBold = true;
+            this.ribbonTabItem1.Name = "ribbonTabItem1";
+            this.ribbonTabItem1.Panel = this.ribbonPanel1;
+            this.ribbonTabItem1.Text = "风场";
+            // 
+            // ribbonTabItem_WT
+            // 
+            this.ribbonTabItem_WT.FontBold = true;
+            this.ribbonTabItem_WT.Name = "ribbonTabItem_WT";
+            this.ribbonTabItem_WT.Panel = this.ribbonPanel_WT;
+            this.ribbonTabItem_WT.Text = "风机";
+            // 
+            // ribbonTabItem2
+            // 
+            this.ribbonTabItem2.Checked = true;
+            this.ribbonTabItem2.FontBold = true;
+            this.ribbonTabItem2.Name = "ribbonTabItem2";
+            this.ribbonTabItem2.Panel = this.ribbonPanel2;
+            this.ribbonTabItem2.Text = "统计";
+            // 
+            // ribbonTabItem3
+            // 
+            this.ribbonTabItem3.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.TextOnlyAlways;
+            this.ribbonTabItem3.FontBold = true;
+            this.ribbonTabItem3.Name = "ribbonTabItem3";
+            this.ribbonTabItem3.NotificationMarkColor = System.Drawing.Color.White;
+            this.ribbonTabItem3.Panel = this.ribbonPanel3;
+            this.ribbonTabItem3.SymbolColor = System.Drawing.Color.White;
+            this.ribbonTabItem3.Text = "用户";
+            // 
+            // panelEx_Left
+            // 
+            this.panelEx_Left.CanvasColor = System.Drawing.SystemColors.Control;
+            this.panelEx_Left.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.panelEx_Left.Controls.Add(this.advTree_WTInfo);
+            this.panelEx_Left.DisabledBackColor = System.Drawing.Color.Empty;
+            this.panelEx_Left.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panelEx_Left.Location = new System.Drawing.Point(1, 125);
+            this.panelEx_Left.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panelEx_Left.MaximumSize = new System.Drawing.Size(350, 0);
+            this.panelEx_Left.Name = "panelEx_Left";
+            this.panelEx_Left.Size = new System.Drawing.Size(233, 315);
+            this.panelEx_Left.Style.Alignment = System.Drawing.StringAlignment.Center;
+            this.panelEx_Left.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.panelEx_Left.Style.BackColor2.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.panelEx_Left.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.panelEx_Left.Style.BorderColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.panelEx_Left.Style.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.panelEx_Left.Style.GradientAngle = 90;
+            this.panelEx_Left.TabIndex = 4;
+            this.panelEx_Left.Text = "panelEx1";
+            // 
+            // advTree_WTInfo
+            // 
+            this.advTree_WTInfo.AccessibleRole = System.Windows.Forms.AccessibleRole.Outline;
+            this.advTree_WTInfo.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.advTree_WTInfo.BackgroundStyle.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.advTree_WTInfo.BackgroundStyle.BackColor2 = System.Drawing.Color.White;
+            this.advTree_WTInfo.BackgroundStyle.BackColorGradientAngle = 120;
+            this.advTree_WTInfo.BackgroundStyle.Class = "TreeBorderKey";
+            this.advTree_WTInfo.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.advTree_WTInfo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.advTree_WTInfo.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.advTree_WTInfo.ForeColor = System.Drawing.Color.Black;
+            this.advTree_WTInfo.ImageList = this.imageList_WT;
+            this.advTree_WTInfo.Location = new System.Drawing.Point(0, 0);
+            this.advTree_WTInfo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.advTree_WTInfo.Name = "advTree_WTInfo";
+            this.advTree_WTInfo.Nodes.AddRange(new DevComponents.AdvTree.Node[] {
+            this.node1});
+            this.advTree_WTInfo.NodesConnector = this.nodeConnector1;
+            this.advTree_WTInfo.NodeStyle = this.elementStyle1;
+            this.advTree_WTInfo.PathSeparator = ";";
+            this.advTree_WTInfo.Size = new System.Drawing.Size(233, 315);
+            this.advTree_WTInfo.Styles.Add(this.elementStyle1);
+            this.advTree_WTInfo.TabIndex = 8;
+            this.advTree_WTInfo.Text = "advTree1";
+            this.advTree_WTInfo.NodeClick += new DevComponents.AdvTree.TreeNodeMouseEventHandler(this.advTree_WTInfo_NodeClick);
+            this.advTree_WTInfo.NodeDoubleClick += new DevComponents.AdvTree.TreeNodeMouseEventHandler(this.advTree_WTInfo_NodeDoubleClick);
+            // 
+            // imageList_WT
+            // 
+            this.imageList_WT.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList_WT.ImageStream")));
+            this.imageList_WT.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList_WT.Images.SetKeyName(0, "wp.jpg");
+            this.imageList_WT.Images.SetKeyName(1, "wt.png");
+            // 
+            // node1
+            // 
+            this.node1.Expanded = true;
+            this.node1.Name = "node1";
+            this.node1.Text = "node1";
+            // 
+            // nodeConnector1
+            // 
+            this.nodeConnector1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(135)))), ((int)(((byte)(135)))));
+            // 
+            // elementStyle1
+            // 
+            this.elementStyle1.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.elementStyle1.Name = "elementStyle1";
+            this.elementStyle1.TextColor = System.Drawing.Color.Black;
+            // 
+            // expandableSplitter_Left
+            // 
+            this.expandableSplitter_Left.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            this.expandableSplitter_Left.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(146)))), ((int)(((byte)(166)))));
+            this.expandableSplitter_Left.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.expandableSplitter_Left.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.expandableSplitter_Left.ExpandableControl = this.panelEx_Left;
+            this.expandableSplitter_Left.ExpandFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(146)))), ((int)(((byte)(166)))));
+            this.expandableSplitter_Left.ExpandFillColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.expandableSplitter_Left.ExpandLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(66)))), ((int)(((byte)(100)))));
+            this.expandableSplitter_Left.ExpandLineColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.ItemText;
+            this.expandableSplitter_Left.ForeColor = System.Drawing.Color.Black;
+            this.expandableSplitter_Left.GripDarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(66)))), ((int)(((byte)(100)))));
+            this.expandableSplitter_Left.GripDarkColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.ItemText;
+            this.expandableSplitter_Left.GripLightColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            this.expandableSplitter_Left.GripLightColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
+            this.expandableSplitter_Left.HotBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(151)))), ((int)(((byte)(61)))));
+            this.expandableSplitter_Left.HotBackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(184)))), ((int)(((byte)(94)))));
+            this.expandableSplitter_Left.HotBackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.ItemPressedBackground2;
+            this.expandableSplitter_Left.HotBackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.ItemPressedBackground;
+            this.expandableSplitter_Left.HotExpandFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(146)))), ((int)(((byte)(166)))));
+            this.expandableSplitter_Left.HotExpandFillColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.expandableSplitter_Left.HotExpandLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(66)))), ((int)(((byte)(100)))));
+            this.expandableSplitter_Left.HotExpandLineColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.ItemText;
+            this.expandableSplitter_Left.HotGripDarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(146)))), ((int)(((byte)(166)))));
+            this.expandableSplitter_Left.HotGripDarkColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.expandableSplitter_Left.HotGripLightColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            this.expandableSplitter_Left.HotGripLightColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
+            this.expandableSplitter_Left.Location = new System.Drawing.Point(234, 125);
+            this.expandableSplitter_Left.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.expandableSplitter_Left.Name = "expandableSplitter_Left";
+            this.expandableSplitter_Left.Size = new System.Drawing.Size(7, 315);
+            this.expandableSplitter_Left.Style = DevComponents.DotNetBar.eSplitterStyle.Office2007;
+            this.expandableSplitter_Left.TabIndex = 8;
+            this.expandableSplitter_Left.TabStop = false;
+            // 
+            // superTabControl_Main
+            // 
+            FormMain.superTabControl_Main.BackColor = System.Drawing.Color.White;
+            FormMain.superTabControl_Main.CloseButtonOnTabsVisible = true;
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            FormMain.superTabControl_Main.ControlBox.CloseBox.Name = "";
+            // 
+            // 
+            // 
+            FormMain.superTabControl_Main.ControlBox.MenuBox.Name = "";
+            FormMain.superTabControl_Main.ControlBox.Name = "";
+            FormMain.superTabControl_Main.ControlBox.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            FormMain.superTabControl_Main.ControlBox.MenuBox,
+            FormMain.superTabControl_Main.ControlBox.CloseBox});
+            FormMain.superTabControl_Main.Controls.Add(this.superTabControlPanel1);
+            FormMain.superTabControl_Main.Dock = System.Windows.Forms.DockStyle.Fill;
+            FormMain.superTabControl_Main.ForeColor = System.Drawing.Color.Black;
+            FormMain.superTabControl_Main.Location = new System.Drawing.Point(241, 125);
+            FormMain.superTabControl_Main.Name = "superTabControl_Main";
+            FormMain.superTabControl_Main.ReorderTabsEnabled = true;
+            FormMain.superTabControl_Main.SelectedTabFont = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
+            FormMain.superTabControl_Main.SelectedTabIndex = 0;
+            FormMain.superTabControl_Main.Size = new System.Drawing.Size(797, 315);
+            FormMain.superTabControl_Main.TabFont = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            FormMain.superTabControl_Main.TabIndex = 20;
+            FormMain.superTabControl_Main.Tabs.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.superTabItem1});
+            FormMain.superTabControl_Main.Text = "superTabControl1";
+            FormMain.superTabControl_Main.TabItemOpen += new System.EventHandler<DevComponents.DotNetBar.SuperTabStripTabItemOpenEventArgs>(this.superTabControl_Main_TabItemOpen);
+            FormMain.superTabControl_Main.TabItemClose += new System.EventHandler<DevComponents.DotNetBar.SuperTabStripTabItemCloseEventArgs>(this.superTabControl_Main_TabItemClose);
+            // 
+            // superTabControlPanel1
+            // 
+            this.superTabControlPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabControlPanel1.Location = new System.Drawing.Point(0, 31);
+            this.superTabControlPanel1.Name = "superTabControlPanel1";
+            this.superTabControlPanel1.Size = new System.Drawing.Size(797, 284);
+            this.superTabControlPanel1.TabIndex = 1;
+            this.superTabControlPanel1.TabItem = this.superTabItem1;
+            this.superTabControlPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.superTabControlPanel1_Paint);
+            // 
+            // superTabItem1
+            // 
+            this.superTabItem1.AttachedControl = this.superTabControlPanel1;
+            this.superTabItem1.GlobalItem = false;
+            this.superTabItem1.Name = "superTabItem1";
+            this.superTabItem1.Text = "superTabItem1";
+            // 
+            // FormMain
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1039, 468);
+            this.Controls.Add(FormMain.superTabControl_Main);
+            this.Controls.Add(this.expandableSplitter_Left);
+            this.Controls.Add(this.panelEx_Left);
+            this.Controls.Add(this.ribbonControl_Main);
+            this.Controls.Add(this.metroStatusBar1);
+            this.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.IsMdiContainer = true;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Name = "FormMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "中国大唐集团新能源科学技术研究院----风机故障诊断与预警系统";
+            this.Load += new System.EventHandler(this.FormMain_Load);
+            this.ribbonControl_Main.ResumeLayout(false);
+            this.ribbonControl_Main.PerformLayout();
+            this.ribbonPanel2.ResumeLayout(false);
+            this.ribbonPanel_WT.ResumeLayout(false);
+            this.ribbonPanel1.ResumeLayout(false);
+            this.ribbonPanel3.ResumeLayout(false);
+            this.panelEx_Left.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.advTree_WTInfo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(FormMain.superTabControl_Main)).EndInit();
+            FormMain.superTabControl_Main.ResumeLayout(false);
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private DevComponents.DotNetBar.StyleManager styleManager_Main;
+        private DevComponents.DotNetBar.Metro.MetroStatusBar metroStatusBar1;
+        private DevComponents.DotNetBar.LabelItem labelItem1;
+        private DevComponents.DotNetBar.RibbonControl ribbonControl_Main;
+        private DevComponents.DotNetBar.RibbonPanel ribbonPanel_WT;
+        private DevComponents.DotNetBar.RibbonPanel ribbonPanel2;
+        private DevComponents.DotNetBar.RibbonTabItem ribbonTabItem_WT;
+        private DevComponents.DotNetBar.RibbonTabItem ribbonTabItem2;
+        private DevComponents.DotNetBar.PanelEx panelEx_Left;
+        private DevComponents.DotNetBar.ExpandableSplitter expandableSplitter_Left;
+        private DevComponents.AdvTree.AdvTree advTree_WTInfo;
+        private DevComponents.AdvTree.Node node1;
+        private DevComponents.AdvTree.NodeConnector nodeConnector1;
+        private DevComponents.DotNetBar.ElementStyle elementStyle1;
+        private DevComponents.DotNetBar.RibbonBar ribbonBar_WTCurve;
+        private DevComponents.DotNetBar.ButtonItem buttonItem_WTPowerCurve;
+        private DevComponents.DotNetBar.ButtonItem buttonItem_Vibration;
+        private System.Windows.Forms.ImageList imageList_WT;
+        private DevComponents.DotNetBar.RibbonBar ribbonBar3;
+        private DevComponents.DotNetBar.RibbonBar ribbonBar2;
+        private DevComponents.DotNetBar.RibbonBar ribbonBar1;
+        private DevComponents.DotNetBar.RibbonBar ribbonBar4;
+        private DevComponents.DotNetBar.ButtonItem buttonItem_WTMainShaft;
+        private DevComponents.DotNetBar.RibbonBar ribbonBar6;
+        private DevComponents.DotNetBar.ButtonItem buttonItem_PitchAngle;
+        private DevComponents.DotNetBar.ButtonItem buttonItem_WTMainShaftTemp;
+        private DevComponents.DotNetBar.ButtonItem buttonItem_WTGearBoxBearTemp;
+        private DevComponents.DotNetBar.ButtonItem buttonItem_WTGearBoxOilPress;
+        private DevComponents.DotNetBar.ButtonItem buttonItem_GeneratorSpeed;
+        private DevComponents.DotNetBar.ButtonItem buttonItem_buttonItem_GeneratorTemp;
+        private DevComponents.DotNetBar.ButtonItem buttonItem_ConverterPower;
+        private DevComponents.DotNetBar.ButtonItem buttonItem_ConverterTemp;
+        private DevComponents.DotNetBar.ButtonItem buttonItem_ConverterError;
+        private DevComponents.DotNetBar.RibbonPanel ribbonPanel1;
+        private DevComponents.DotNetBar.RibbonTabItem ribbonTabItem1;
+        private DevComponents.DotNetBar.RibbonBar ribbonBar5;
+        private DevComponents.DotNetBar.ButtonItem buttonItem_Energy1;
+        public static DevComponents.DotNetBar.SuperTabControl superTabControl_Main;
+        private DevComponents.DotNetBar.SuperTabControlPanel superTabControlPanel1;
+        private DevComponents.DotNetBar.SuperTabItem superTabItem1;
+        private DevComponents.DotNetBar.ButtonItem buttonItem1;
+        private DevComponents.DotNetBar.ButtonItem buttonItem2;
+        private DevComponents.DotNetBar.RibbonPanel ribbonPanel3;
+        private DevComponents.DotNetBar.RibbonTabItem ribbonTabItem3;
+        private DevComponents.DotNetBar.RibbonBar ribbonBar7;
+        private DevComponents.DotNetBar.ButtonItem buttonItem3;
+        private DevComponents.DotNetBar.ButtonItem buttonItem4;
+        private DevComponents.DotNetBar.RibbonBar ribbonBar8;
+        private DevComponents.DotNetBar.ButtonItem buttonItem5;
+        private DevComponents.DotNetBar.ButtonItem buttonItem6;
+        private DevComponents.DotNetBar.ButtonItem buttonItem7;
+        private DevComponents.DotNetBar.RibbonBar ribbonBar9;
+        private DevComponents.DotNetBar.ButtonItem buttonItem_DailyBaseReport;
+        private DevComponents.DotNetBar.ButtonItem buttonItem9;
+        private DevComponents.DotNetBar.RibbonBar ribbonBar10;
+        private DevComponents.DotNetBar.ButtonItem buttonItem8;
+
+    }
+}
+
